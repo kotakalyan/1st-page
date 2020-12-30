@@ -158,22 +158,25 @@ html {
 
 }
 .hero .hero-info .hero-info-heading {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 500;
 	color: whitesmoke;
-	padding-right: 0%;
-	padding-top: 10%;
+	padding-left: 50%;
+	padding-top: 10%
 
 }
 .hero .hero-info .hero-info-subheading {
-	font-size: 1.6rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 	color: whitesmoke;
+	padding-left: 50%;
+	padding-top: 10%;
 	
 }
 .hero .hero-info .hero-info-button {
 	margin-top: 30px;
-	padding: 1rem 5rem;
+	padding: 2rem 7rem;
+	/* padding-left: 50%; */
 	display: inline-block;
 	font-size: 1.6rem;
 	text-transform: uppercase;
@@ -351,7 +354,7 @@ html {
 	color: white;
 	flex-direction: column;
 	text-align: center;
-	padding: 5rem;
+	padding: 3rem;
 }
 .footer .footer-contact {
 	padding: 20px;
@@ -446,4 +449,5 @@ html {
 		letter-spacing: .8rem;
 	}
 }
-/* End Media Query For Desktop Only  */
+
+/* Media Query For Desktop Only  */
